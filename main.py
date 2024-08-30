@@ -3,7 +3,8 @@ from tkinter.ttk import Button
 
 window = Tk()
 window.title("My first GUI Program")
-window.minsize(width=500, height=300)
+window.minsize(width=200, height=100)
+window.config(padx=20,pady=20)
 
 #Label
 
